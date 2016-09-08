@@ -1,0 +1,52 @@
+﻿body
+{
+	background-color: lightgrey;
+  text-align: center;
+}
+
+div#background
+{
+  position: absolute;
+  z-index: -10;
+}
+
+header
+{
+	text-align:center;
+	height: 15%;
+	width: 100%;
+	top: 0%;
+}
+
+main
+{
+	text-align: center;
+	font-size:30px;
+	color:black;
+	font-family:Arial;
+}
+
+footer
+{
+	text-align: center;
+	font-family: Courier;
+	font-size: 18px;
+  height: 10%;
+  width: 99%;
+  bottom: 0%;
+	overflow: hidden;
+	position: fixed;
+}
+
+h1#title
+{
+	color:black;
+	font-family:Courier;
+	font-size:100px;
+	margin:0px;
+}
+
+canvas#graph
+{
+	background-color: rgba(0, 0, 0, 0.3);
+}
